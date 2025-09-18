@@ -1,0 +1,61 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+.container {
+padding: 50px;
+background-color: #fff;
+min-height: 100vh;
+}
+.header {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: red;
+padding: 15px 0;
+margin-bottom: 20px;
+}
+.headerTitle {
+color: white;
+font-size: 24px;
+margin-left: 10px;
+}
+.input {
+height: 40px;
+border: 1px solid gray;
+margin-bottom: 10px;
+padding-left: 8px;
+width: calc(100% - 20px);
+max-width: 400px;
+}
+.addButton {
+background-color: #007bff;
+color: white;
+padding: 10px 15px;
+border: none;
+margin-bottom: 20px;
+cursor: pointer;
+}
+.addButton:hover {
+background-color: #0056b3;
+}
+.list {
+max-width: 400px;
+}
+.todoItem {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+border-bottom: 1px solid #ccc;
+}
+.deleteButton {
+background-color: red;
+color: white;
+padding: 5px 10px;
+border: none;
+cursor: pointer;
+}
+.deleteButton:hover {
+background-color: darkred;
+}
